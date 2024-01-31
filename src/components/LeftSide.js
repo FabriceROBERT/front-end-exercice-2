@@ -6,9 +6,9 @@ import { ChevronUpOutline } from "react-ionicons";
 
 export default function LeftSide() {
   return (
-    <div className="bg-white rounded-tr-xl pl-10 py-3 px-10 h-screen w-3/4">
+    <div className=" bg-slate-100 ml-2 rounded-tr-xl pl-10 py-3 px-10 h-screen w-3/4">
       <span className="tracking-wider ">NOM DE LA LISTE</span>
-      <div className="mt-10 ml-3 flex flex-row gap-5">
+      <div className="mt-10 rounded-md p-3 flex bg-white flex-row gap-5">
         <SearchOutline beat color={"#00000"} height="20px" width="20px" />
         <input
           placeholder="rechercher"
@@ -16,7 +16,9 @@ export default function LeftSide() {
           type="search"
         />
       </div>
-      <div className=" mt-10 flex flex-row justify-around">
+      {/* Liste name - scope - methodes */}
+      <hr className="text-black -ml-10 -mr-10 my-5 w-4/4" />
+      <div className="   flex flex-row justify-around">
         <div className="flex flex-row -ml-[280px] content-center ">
           <CaretDownOutline
             className="mt-1"
@@ -66,7 +68,7 @@ export default function LeftSide() {
         </div>
       </div>
       {/* Liste des radios api */}
-      <div className="flex flex-col gap-y-20 mt-10 justify-start">
+      <div className="flex flex-col bg-white gap-y-20 py-8 justify-start">
         <div className=" flex flex-row justify-around">
           <div className="-ml-[330px] flex gap-5  ">
             <input type="radio" className="ml-6 h-5 w-5 cursor-pointer" />
@@ -100,7 +102,7 @@ export default function LeftSide() {
       </div>
       {/* Listes des  nodes  */}
       <div className="flex flex-col gap-[1px]">
-        <div className="mt-5 flex flex-row">
+        <div className=" flex flex-row">
           <div className=" flex-1 p-3 rounded-l-md bg-slate-900 flex flex-row justify-between items-center content-center">
             <div className="text-white ml-3 text-sm font-extralight tracking-wide ">
               nodes
