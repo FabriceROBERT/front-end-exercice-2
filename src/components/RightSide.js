@@ -6,7 +6,7 @@ import { ChevronUpOutline } from "react-ionicons";
 
 export default function RightSide() {
   return (
-    <div className="bg-slate-100 pl-3  mb-0 py-3 mr-3  border-sky-500 h-screen w-1/4">
+    <div className="bg-slate-100 pl-3  mb-0 py-3 mr-3 border-2  border-sky-500 h-screen w-1/4">
       {/* Titre */}
       <span className=" tracking-wider">NOM DE LA LISTE</span>
       {/* Barre de recherche */}
